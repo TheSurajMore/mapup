@@ -1,0 +1,49 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Center-align the pagination */
+.pagination {
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Pagination button styling */
+.pagination button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0.2%;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+/* Center-align the EligibilityChart */
+.eligibility-chart-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px; /* Optional: Adjust spacing */
+}
+
+/* Optionally add some styling to the EligibilityChart itself */
+.eligibility-chart {
+  width: 80%; /* Adjust width as needed */
+}
+
+ol {
+  text-align: center;
+  margin: 5px 0;
+  font-size: 1rem;
+  margin-left: -6%;
+}
